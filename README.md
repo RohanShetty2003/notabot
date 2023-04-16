@@ -10,3 +10,5 @@ Text-to-Speech: For the Text-to-Speech part of the project, a software library c
 Integration: The image captioning and TTS systems are then integrated into a single application, which can take input from a webcam and output an audio description of the image in real-time. This application can be useful for blind individuals who want to understand the content of images, such as photos or videos, that they would not otherwise be able to access.
 
 ### Dataset used: Flickr 8K 
+## Dependencies requied 
+```pip install flask tensorflow keras Pillow nltk gTTS```
