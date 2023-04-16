@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Streaming Demonstration</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="video-container">
+        <h1>Webcam Audio/Text Transcript App</h1>
+        <image id="videoElement" src="{{ url_for('video_feed') }}"></image>
+      </div>
+
+      <div class="transcript-container">
+        <div class="text-transcript">
+          <caption>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+          </caption>
+        </div>
+        <div class="audio-transcript">
+          <audio controls>
+            <source src="{{ audio_url }}" type="audio/wav" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
