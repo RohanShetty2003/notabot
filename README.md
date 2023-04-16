@@ -1,4 +1,8 @@
 # notabot
+
+video-pitch: https://drive.google.com/file/d/1ZtAmCCxFcUiur0q-Sx1Yha52ohMPgUJ6/view?usp=share_link;
+
+
 # Image to Audio Description for visually impaired
 The main idea behind this project is to create an image captioning system that can generate a textual description of an image, which can then be converted into an audio description to assist blind individuals in understanding the content of the image. This can be accomplished using deep learning techniques and pre-trained models.
 ### The process can be broken down into three main steps:
